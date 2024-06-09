@@ -6,16 +6,16 @@ function TopBar() {
     {
       logo: <Phone />,
       heading: "Call Us Now",
-      main: "6351-771-513",
+      main: "6355-168-597",
     },
     {
       logo: <Mail />,
       heading: "Email Now",
-      main: "aakash@gmail.com",
+      main: "jaydevada201184@gmail.com",
     },
     {
       logo: <MapPinned />,
-      heading: "Laxmi Nivas",
+      heading: "Laxmi Enterprise",
       main: "Narol Circle, INDIA - 380001",
     },
   ];

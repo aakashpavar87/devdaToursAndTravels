@@ -36,9 +36,7 @@ function Testimonial() {
         </div>
         <div className="flex flex-col md:flex-row gap-6 justify-center items-center mt-4 md:mt-0">
           <img
-            src={
-              "https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YXZhdGFyfGVufDB8fDB8fHww"
-            }
+            src={"images/jay-img.jpeg"}
             alt="Customer Image"
             className="rounded-full h-[90px] w-[90px]"
           />
@@ -48,7 +46,7 @@ function Testimonial() {
           </div>
           <div className="flex flex-col gap-3 items-start justify-start">
             <PhoneCall />
-            <p className="text-xl font-aakash text-amber-500">6351-771-513</p>
+            <p className="text-xl font-aakash text-amber-500">6355-168-597</p>
           </div>
         </div>
       </div>

@@ -8,17 +8,17 @@ function Services() {
     {
       title: "About Us",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus maxime voluptatibus obcaecati?",
+        "Experience reliable and affordable cab services with us, ensuring safe and comfortable travel for all your transportation needs.",
     },
     {
       title: "Order Taxi",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus maxime voluptatibus obcaecati?",
+        "Order your taxi with ease, offering timely pickups, professional drivers, and a smooth, hassle-free ride experience.",
     },
     {
       title: "Cab Booking",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus maxime voluptatibus obcaecati?",
+        "Book a cab effortlessly with our reliable service, ensuring comfort, safety, and punctuality for all your travel needs.",
     },
   ];
   return (
