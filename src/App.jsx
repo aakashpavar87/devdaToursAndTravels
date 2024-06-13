@@ -1,22 +1,20 @@
+import { Outlet } from "react-router-dom";
 import { Footer } from "./components/Footer";
-import Hero from "./components/Hero";
 import { Navbar } from "./components/Navbar";
-import OurFleet from "./components/OurFleet";
-import OurRates from "./components/OurRates";
-import Services from "./components/Services";
-import Testimonial from "./components/Testimonial";
 import TopBar from "./components/TopBar";
+import { useEffect } from "react";
+import useMyRoute from "./store/store";
 
 function App() {
+  const { routeInfo } = useMyRoute();
+  useEffect(() => {
+    console.log(routeInfo);
+  });
   return (
     <div className="overflow-x-hidden">
       <TopBar />
       <Navbar />
-      <Hero />
-      <OurRates />
-      <OurFleet />
-      <Testimonial />
-      <Services />
+      <Outlet />
       <Footer />
     </div>
   );
