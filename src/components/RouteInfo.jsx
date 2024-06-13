@@ -9,7 +9,6 @@ function RouteInfo() {
   useEffect(() => {
     let foundObj = routeInfo?.filter((route) => route.slug === cabroute)[0];
     setFoundRoute(foundObj);
-    console.log(foundRoute);
     return () => {};
   }, []);
 
@@ -17,6 +16,7 @@ function RouteInfo() {
     <div>
       RouteInfo
       <p>{foundRoute?.description}</p>
+      <p>Route : {foundRoute?.slug}</p>
     </div>
   );
 }

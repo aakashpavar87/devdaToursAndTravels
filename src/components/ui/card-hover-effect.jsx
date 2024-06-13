@@ -1,6 +1,7 @@
 import { cn } from "../../utils/cn";
 import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export const HoverEffect = ({ items, className }) => {
   let [hoveredIndex, setHoveredIndex] = useState(null);
@@ -13,8 +14,8 @@ export const HoverEffect = ({ items, className }) => {
       )}
     >
       {items.map((item, idx) => (
-        <a
-          href={item.slug}
+        <Link
+          to={item.slug}
           key={item.slug}
           className="relative group/card  block p-2 h-full w-full"
           onMouseEnter={() => setHoveredIndex(idx)}
@@ -58,7 +59,7 @@ export const HoverEffect = ({ items, className }) => {
             </div> */}
             {/* <CardDescription>{item.description}</CardDescription> */}
           </Card>
-        </a>
+        </Link>
       ))}
     </div>
   );
