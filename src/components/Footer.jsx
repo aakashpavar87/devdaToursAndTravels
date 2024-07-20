@@ -54,7 +54,7 @@ export function Footer() {
           <div className="w-auto p-8">
             <div className="-m-1.5 flex flex-wrap">
               <div className="w-auto p-1.5">
-                <a href="#">
+                <a href="https://facebook.com">
                   <div className="flex h-8 w-8 items-center justify-center rounded-full border border-gray-300 hover:border-gray-400">
                     <svg
                       width="8"
@@ -72,7 +72,7 @@ export function Footer() {
                 </a>
               </div>
               <div className="w-auto p-1.5">
-                <a href="#">
+                <a href="https://twitter.com">
                   <div className="flex h-8 w-8 items-center justify-center rounded-full border border-gray-300 hover:border-gray-400">
                     <svg
                       width="14"
@@ -90,7 +90,7 @@ export function Footer() {
                 </a>
               </div>
               <div className="w-auto p-1.5">
-                <a href="#">
+                <a href="https://instagram.com">
                   <div className="flex h-8 w-8 items-center justify-center rounded-full border border-gray-300 hover:border-gray-400">
                     <svg
                       width="16"

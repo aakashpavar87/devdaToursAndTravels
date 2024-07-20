@@ -3,9 +3,9 @@ import { MapPin } from "lucide-react";
 
 const locations = [
   {
-    title: "Bengaluru office",
+    title: "Ahmedabad office",
     timings: "Mon-Sat 9am to 5pm.",
-    address: "100, Electronic City Phase-1, Bengaluru, Karnataka 560100 IN",
+    address: "Narol Circle, Ahmedabad, Gujarat 380325 IN",
   },
   // {
   //   title: "Head office",
