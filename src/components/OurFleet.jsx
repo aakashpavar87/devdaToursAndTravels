@@ -4,9 +4,9 @@ import { ImagesSlider } from "./ui/image-slider";
 import { Tally3 } from "lucide-react";
 
 const images = [
-  "images/red-ertiga.jpg",
-  "images/blue-ford-transit.jpg",
-  "images/gray-maruti-suzuki.jpg",
+  "images/maruti-suzuki-ertiga-magma-grey.webp",
+  "images/urbania-rm-bg.png",
+  "images/dezire-rm-bg.png",
   "images/blue-innova.webp",
 ];
 
