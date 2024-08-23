@@ -77,8 +77,8 @@ export const RouteProvider = ({ children }) => {
       ),
       description:
         "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
-      sedan: 0,
-      suv: 0,
+      sedan: 3499,
+      suv: 4499,
       slug: "ahmedabad-to-udaipur", // Lowercase conversion and kebab-case for slug
     },
     {
@@ -104,6 +104,18 @@ export const RouteProvider = ({ children }) => {
       sedan: 0,
       suv: 0,
       slug: "ahmedabad-to-jamnagar", // Lowercase conversion and kebab-case for slug
+    },
+    {
+      title: (
+        <p className="flex flex-col md:flex-row gap-3">
+          AHMEDABAD <ArrowRightLeft /> JODHPUR
+        </p>
+      ),
+      description:
+        "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
+      sedan: 6499,
+      suv: 8499,
+      slug: "ahmedabad-to-jodhpur", // Lowercase conversion and kebab-case for slug
     },
   ]);
   return (

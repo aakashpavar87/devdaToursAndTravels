@@ -76,8 +76,8 @@ export function Footer() {
                   <div className="flex h-8 w-8 items-center justify-center rounded-full border border-gray-300 hover:border-gray-400">
                     <svg
                       fill="#ffffff"
-                      height="800px"
-                      width="800px"
+                      width="16"
+                      height="15"
                       version="1.1"
                       id="Layer_1"
                       xmlns="http://www.w3.org/2000/svg"
