@@ -1,6 +1,6 @@
-import { Car, CarFront } from "lucide-react";
-import Logo from "../utils/Logo";
+import { CarFront } from "lucide-react";
 import HeroCard from "../utils/HeroCard";
+import Logo from "../utils/Logo";
 
 export default function Hero() {
   return (
@@ -13,11 +13,31 @@ export default function Hero() {
           <h1 className="md:hidden text-xl flex items-center justify-center font-bold font-google mb-8 tracking-tight text-gray-100 sm:text-3xl gap-5">
             Experience Our Services <CarFront size={16} />
           </h1>
-          <div className="flex w-full flex-col md:flex-row justify-center items-center gap-16">
+          <div className="flex w-full flex-col md:flex-row justify-center items-center gap-12">
             <Logo
               className="h-[210px] md:h-[280px] md:w-1/3"
               alt="webiste logo"
             />
+            <div className="w-full h-10 md:hidden flex items-center justify-center gap-8">
+              <a className="h-full w-8 motion-safe:animate-bounce" href="https://www.facebook.com/devdatourstravels/">
+                <img
+                  src="/images/icons-social/facebook.svg"
+                  alt="Facebook Icon Of Devda Tours And Travels"
+                />
+              </a>
+              <a className="h-full w-8 motion-safe:animate-bounce" href="https://www.instagram.com/devdatourstravels">
+                <img
+                  src="/images/icons-social/instagram.svg"
+                  alt="Facebook Icon Of Devda Tours And Travels"
+                />
+              </a>
+              <a className="h-full w-8 motion-safe:animate-bounce" href="https://wa.me/6355168597">
+                <img
+                  src="/images/icons-social/whatsapp-business.svg"
+                  alt="Facebook Icon Of Devda Tours And Travels"
+                />
+              </a>
+            </div>
             <HeroCard />
           </div>
         </div>

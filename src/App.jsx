@@ -1,8 +1,8 @@
+import { useEffect } from "react";
 import { Outlet } from "react-router-dom";
 import { Footer } from "./components/Footer";
 import { Navbar } from "./components/Navbar";
 import TopBar from "./components/TopBar";
-import { useEffect } from "react";
 import useMyRoute from "./store/store";
 
 function App() {

@@ -1,7 +1,7 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import { MotorLogo } from "../utils/MotorLogo";
 import { Link } from "react-router-dom";
+import { MotorLogo } from "../utils/MotorLogo";
 
 const menuItems = [
   {

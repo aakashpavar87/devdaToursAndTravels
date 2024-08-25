@@ -44,10 +44,12 @@ function Testimonial() {
             <h3 className="text-lg font-google">Founder - CEO</h3>
             <p className="text-xl font-aakash text-gray-500">Jay Devda</p>
           </div>
-          <div className="flex flex-col gap-3 items-start justify-start">
-            <PhoneCall />
-            <p className="text-xl font-aakash text-amber-500">6355-168-597</p>
-          </div>
+          <a href="tel:6355168597">
+            <div className="flex flex-col gap-3 items-start justify-start">
+              <PhoneCall />
+              <p className="text-xl font-aakash text-amber-500">6355-168-597</p>
+            </div>
+          </a>
         </div>
       </div>
     </div>

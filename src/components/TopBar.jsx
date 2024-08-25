@@ -1,7 +1,7 @@
+import { Mail, MapPinned, Phone } from "lucide-react";
 import { Link } from "react-router-dom";
 import WebsiteLogo from "../utils/Logo";
 import TopBarWidget from "../utils/TopBarWidget";
-import { Mail, MapPinned, Phone } from "lucide-react";
 function TopBar() {
   const topBarItems = [
     {

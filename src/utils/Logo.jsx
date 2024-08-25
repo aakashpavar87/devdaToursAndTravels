@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import logo from "../assets/devdalogo.png";
 
 const Logo = ({ ...props }) => (

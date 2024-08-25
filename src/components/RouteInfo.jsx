@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import useMyRoute from "../store/store";
-import { Check } from "lucide-react";
 
 const plans = [
   {

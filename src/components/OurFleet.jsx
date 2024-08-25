@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
+import { Tally3 } from "lucide-react";
 import React from "react";
 import { ImagesSlider } from "./ui/image-slider";
-import { Tally3 } from "lucide-react";
 
 const images = [
   "images/maruti-suzuki-ertiga-magma-grey.webp",
@@ -13,7 +13,7 @@ const images = [
 function OurFleet() {
   return (
     <div className="flex flex-col gap-2">
-      <h1 className="text-center text-xl sm:text-2xl md:text-3xl flex justify-center font-google ">
+      <h1 className="text-center text-xl sm:text-2xl md:text-3xl flex justify-center font-google mt-2">
         <Tally3 size={32} className="-skew-x-12 text-amber-500" />
         Our Fleet
       </h1>

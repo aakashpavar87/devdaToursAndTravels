@@ -1,15 +1,15 @@
-import React, { useEffect } from "react";
-import { HoverEffect } from "./ui/card-hover-effect";
-import { ArrowRightLeft } from "lucide-react";
+import React from "react";
 import useMyRoute from "../store/store";
-// import useRoute from "../store/store.jsx";
+import { HoverEffect } from "./ui/card-hover-effect";
+import { Tally3 } from "lucide-react";
 
 function OurRates() {
   const { routeInfo } = useMyRoute();
 
   return (
     <div className="w-full min-h-screen mt-8">
-      <h1 className="text-center text-xl sm:text-2xl md:text-3xl font-google ">
+      <h1 className="text-center text-xl sm:text-2xl md:text-3xl flex justify-center font-google mt-2">
+        <Tally3 size={32} className="-skew-x-12 text-amber-500" />
         Our Rates
       </h1>
       <div className="max-w-7xl mx-auto px-8">

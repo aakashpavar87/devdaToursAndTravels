@@ -1,6 +1,6 @@
-import { cn } from "../../utils/cn";
-import { motion, AnimatePresence } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
+import { cn } from "../../utils/cn";
 
 export const ImagesSlider = ({
   images,

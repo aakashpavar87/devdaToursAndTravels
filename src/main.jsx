@@ -5,12 +5,12 @@ import App from "./App.jsx";
 import AboutUs from "./components/AboutUs.jsx";
 import Contact from "./components/Contact.jsx";
 import Hero from "./components/Hero.jsx";
-import OurRates from "./components/OurRates.jsx";
 import OurFleet from "./components/OurFleet.jsx";
-import Testimonial from "./components/Testimonial.jsx";
-import Services from "./components/Services.jsx";
-import "./index.css";
+import OurRates from "./components/OurRates.jsx";
 import RouteInfo from "./components/RouteInfo.jsx";
+import Services from "./components/Services.jsx";
+import Testimonial from "./components/Testimonial.jsx";
+import "./index.css";
 import { RouteProvider } from "./store/store.jsx";
 
 const router = createBrowserRouter([
@@ -27,8 +27,8 @@ const router = createBrowserRouter([
         element: (
           <>
             <Hero />
-            <OurRates />
             <OurFleet />
+            <OurRates />
             <Testimonial />
             <Services />
           </>
