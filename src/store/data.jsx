@@ -369,8 +369,8 @@ export const initialState = {
     },
     {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Mehsana
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> MEHSANA
           </p>
         ),
         sedan: 0,
@@ -379,8 +379,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Patan
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> PATAN
           </p>
         ),
         sedan: 0,
@@ -389,8 +389,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Palanpur
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> PALANPUR
           </p>
         ),
         sedan: 0,
@@ -399,8 +399,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Disa
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> DISA
           </p>
         ),
         sedan: 0,
@@ -409,8 +409,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Abu Road
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> ABU ROAD
           </p>
         ),
         sedan: 0,
@@ -419,8 +419,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Jhalor
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> JHALOR
           </p>
         ),
         sedan: 0,
@@ -429,8 +429,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Sirohi
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> SIROHI
           </p>
         ),
         sedan: 0,
@@ -439,8 +439,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Bhinmal
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> BHINMAL
           </p>
         ),
         sedan: 0,
@@ -449,8 +449,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Pali
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> PALI
           </p>
         ),
         sedan: 0,
@@ -459,8 +459,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Revdar
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> REVDAR
           </p>
         ),
         sedan: 0,
@@ -469,8 +469,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Dhanera
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> DHANERA
           </p>
         ),
         sedan: 0,
@@ -479,8 +479,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Saachor
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> SAACHOR
           </p>
         ),
         sedan: 0,
@@ -489,8 +489,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Chotila
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> CHOTILA
           </p>
         ),
         sedan: 0,
@@ -499,8 +499,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Rajkot
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> RAJKOT
           </p>
         ),
         sedan: 0,
@@ -509,8 +509,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Jetpur
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> JETPUR
           </p>
         ),
         sedan: 0,
@@ -519,8 +519,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Junagadh
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> JUNAGADH
           </p>
         ),
         sedan: 0,
@@ -529,8 +529,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Porbandar
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> PORBANDAR
           </p>
         ),
         sedan: 0,
@@ -539,8 +539,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Dhanghadhra
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> DHANGHADHRA
           </p>
         ),
         sedan: 0,
@@ -549,8 +549,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Surendranagar
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> SURENDRANAGAR
           </p>
         ),
         sedan: 0,
@@ -559,8 +559,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Malia
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> MALIA
           </p>
         ),
         sedan: 0,
@@ -569,8 +569,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Bhachau
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> BHACHAU
           </p>
         ),
         sedan: 0,
@@ -579,8 +579,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Gandhidham
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> GANDHIDHAM
           </p>
         ),
         sedan: 0,
@@ -589,8 +589,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Bhuj
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> BHUJ
           </p>
         ),
         sedan: 0,
@@ -599,8 +599,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Morbi
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> MORBI
           </p>
         ),
         sedan: 0,
@@ -609,18 +609,18 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Jamanagar
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> JAMNAGAR
           </p>
         ),
         sedan: 0,
         suv: 0,
-        slug: "ahmedabad-to-jamanagar"
+        slug: "ahmedabad-to-jamnagar"
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Bhavnagar
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> BHAVNAGAR
           </p>
         ),
         sedan: 0,
@@ -629,8 +629,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Palitana
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> PALITANA
           </p>
         ),
         sedan: 0,
@@ -639,8 +639,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Diu
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> DIU
           </p>
         ),
         sedan: 0,
@@ -649,8 +649,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Baroda
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> BARODA
           </p>
         ),
         sedan: 0,
@@ -659,8 +659,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Nadiad
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> NADIAD
           </p>
         ),
         sedan: 0,
@@ -669,8 +669,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Anand
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> ANAND
           </p>
         ),
         sedan: 0,
@@ -679,8 +679,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Bharuch
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> BHARUCH
           </p>
         ),
         sedan: 0,
@@ -689,8 +689,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Surat
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> SURAT
           </p>
         ),
         sedan: 0,
@@ -699,8 +699,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Daman
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> DAMAN
           </p>
         ),
         sedan: 0,
@@ -709,8 +709,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Vapi
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> VAPI
           </p>
         ),
         sedan: 0,
@@ -719,8 +719,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Dakor
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> DAKOR
           </p>
         ),
         sedan: 0,
@@ -729,8 +729,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Godhra
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> GODHRA
           </p>
         ),
         sedan: 0,
@@ -739,8 +739,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Dahod
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> DAHOD
           </p>
         ),
         sedan: 0,
@@ -749,8 +749,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Indore
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> INDORE
           </p>
         ),
         sedan: 0,
@@ -759,8 +759,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Bhopal
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> BHOPAL
           </p>
         ),
         sedan: 0,
@@ -769,8 +769,8 @@ export const initialState = {
       },
       {
         title: (
-          <p className="flex flex-col md:flex-row gap-3">
-            AHMEDABAD <ArrowRightLeft /> Nimach
+          <p className="flex flex-col md:flex-row gap-3 capitalize">
+            AHMEDABAD <ArrowRightLeft /> NEEMACH
           </p>
         ),
         sedan: 0,
