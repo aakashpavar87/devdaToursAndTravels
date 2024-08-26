@@ -5,14 +5,14 @@ export const initialState = {
     {
       title: (
         <p className="flex flex-col md:flex-row gap-3">
-          AHMEDABAD <ArrowRightLeft /> BHILWADA
+          AHMEDABAD <ArrowRightLeft /> UDAIPUR
         </p>
       ),
       sedan: 0,
       suv: 0,
       slug: "ahmedabad-to-bhilwada",
-      subRoutes: ["Himmatnagar", "Udaipur", "Nathdwara", "Chittorgadh"],
-      region: "bhilwara-rj",
+      subRoutes: ["Himmatnagar", "Nathdwara", "Bhilwada", "Chittorgadh"],
+      region: "udaipur-rj",
     },
     {
       title: (
@@ -35,20 +35,20 @@ export const initialState = {
       sedan: 0,
       suv: 0,
       slug: "ahmedabad-to-banswada",
-      subRoutes: ["Modasa", "Dungarpur", "Sagvada"],
+      subRoutes: ["Modasa", "Partapur", "Sagvada"],
       region: "banswada-rj",
     },
     {
       title: (
         <p className="flex flex-col md:flex-row gap-3">
-          AHMEDABAD <ArrowRightLeft /> SAABLA
+          AHMEDABAD <ArrowRightLeft /> DUNGARPUR
         </p>
       ),
       sedan: 0,
       suv: 0,
       slug: "ahmedabad-to-saabla",
-      subRoutes: ["Aaspur", "Salumbar"],
-      region: "saabla-rj",
+      subRoutes: ["Aaspur", "Salumbar", "Saabla"],
+      region: "dungarpur-rj",
     },
     {
       title: (
@@ -187,12 +187,12 @@ export const initialState = {
       sedan: 0,
       suv: 0,
       slug: "ahmedabad-to-nagpur", // Lowercase conversion and kebab-case for slug
-      subRoutes: ["Mumbai", "Pune", "Nasik"],
+      subRoutes: ["Pune", "Nasik"],
     },
     {
       title: (
         <p className="flex flex-col md:flex-row gap-3">
-          AHMEDABAD <ArrowRightLeft /> RATLAM
+          AHMEDABAD <ArrowRightLeft /> INDORE
         </p>
       ),
       description:
@@ -200,7 +200,7 @@ export const initialState = {
       sedan: 0,
       suv: 0,
       slug: "ahmedabad-to-ratlam", // Lowercase conversion and kebab-case for slug
-      subRoutes: ["Dakor", "Godhra", "Dahod", "Indore"],
+      subRoutes: ["Dakor", "Godhra", "Dahod", "Ratlam"],
     },
     {
       title: (
@@ -220,12 +220,52 @@ export const initialState = {
     {
       title: (
         <p className="flex flex-col md:flex-row gap-3">
+          AHMEDABAD <ArrowRightLeft /> BHILWADA
+        </p>
+      ),
+      sedan: 0,
+      suv: 0,
+      slug: "ahmedabad-to-bhilwada",
+    },
+    {
+      title: (
+        <p className="flex flex-col md:flex-row gap-3">
+          AHMEDABAD <ArrowRightLeft /> PARTAPUR
+        </p>
+      ),
+      sedan: 0,
+      suv: 0,
+      slug: "ahmedabad-to-partapur",
+    },
+    {
+      title: (
+        <p className="flex flex-col md:flex-row gap-3">
+          AHMEDABAD <ArrowRightLeft /> SAABLA
+        </p>
+      ),
+      sedan: 0,
+      suv: 0,
+      slug: "ahmedabad-to-saabla",
+    },
+    {
+      title: (
+        <p className="flex flex-col md:flex-row gap-3">
           AHMEDABAD <ArrowRightLeft /> MUMBAI
         </p>
       ),
       sedan: 0,
       suv: 0,
       slug: "ahmedabad-to-mumbai",
+    },
+    {
+      title: (
+        <p className="flex flex-col md:flex-row gap-3">
+          AHMEDABAD <ArrowRightLeft /> RATLAM
+        </p>
+      ),
+      sedan: 0,
+      suv: 0,
+      slug: "ahmedabad-to-ratlam",
     },
     {
       title: (

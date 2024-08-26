@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import useMyRoute from "../store/store";
-import suvImage from "../assets/suv-removebg-preview.png";
+// import suvImage from "../assets/suv-removebg-preview.png";
+import suvImage from "../assets/toyota-innova.png"
 import sedanImage from "../assets/etios-car.png";
 
 const plans = [
