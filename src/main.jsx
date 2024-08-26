@@ -6,12 +6,13 @@ import AboutUs from "./components/AboutUs.jsx";
 import Contact from "./components/Contact.jsx";
 import Hero from "./components/Hero.jsx";
 import OurFleet from "./components/OurFleet.jsx";
-import OurRates from "./components/OurRates.jsx";
+import OurRoutes from "./components/OurRoutes.jsx";
 import RouteInfo from "./components/RouteInfo.jsx";
 import Services from "./components/Services.jsx";
 import Testimonial from "./components/Testimonial.jsx";
 import "./index.css";
 import { RouteProvider } from "./store/store.jsx";
+import SubRouteInfo from "./components/SubRouteInfo.jsx";
 
 const router = createBrowserRouter([
   {
@@ -28,7 +29,7 @@ const router = createBrowserRouter([
           <>
             <Hero />
             <OurFleet />
-            <OurRates />
+            <OurRoutes />
             <Testimonial />
             <Services />
           </>
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
         path: "/:cabroute",
         element: <RouteInfo />,
       },
+      {
+        path: "/sub/:subRoute",
+        element: <SubRouteInfo />,
+      }
     ],
   },
 ]);

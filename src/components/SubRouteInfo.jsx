@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import useMyRoute from "../store/store";
 import suvImage from "../assets/suv-removebg-preview.png";
 import sedanImage from "../assets/etios-car.png";
@@ -15,14 +15,14 @@ const plans = [
   },
 ];
 
-function RouteInfo() {
-  const { cabroute } = useParams();
+function SubRouteInfo() {
+  const { subRoute } = useParams();
   const {
-    routeInfo: { mainRoutes },
+    routeInfo: { subRoutes },
   } = useMyRoute();
   const [foundRoute, setFoundRoute] = useState({});
   useEffect(() => {
-    let foundObj = mainRoutes?.filter((route) => route.slug === cabroute)[0];
+    let foundObj = subRoutes?.filter((route) => route.slug === subRoute)[0];
     setFoundRoute(foundObj);
     return () => {};
   }, []);
@@ -37,23 +37,6 @@ function RouteInfo() {
         <p className="mx-auto max-w-3xl text-base text-gray-600 md:text-xl">
           {foundRoute.title}
         </p>
-        <div className="flex flex-col gap-3 w-[80%] justify-start items-start">
-          <h3 className="text-gray-900 font-semibold text-2xl md:text-3xl font-google">
-            Other Routes
-          </h3>
-          <div className="flex flex-wrap justify-start md:flex-wrap mt-2 gap-2 text-gray-700 text-sm md:text-lg">
-            {foundRoute?.subRoutes?.map((route) => {
-              const placeName = route.toLowerCase().replace(" ", "-");
-              return (
-                <Link to={`/sub/ahmedabad-to-${placeName}`}>
-                  <h3 className="text-xl md:text-2xl font-google font-semibold">
-                    {route},{" "}
-                  </h3>
-                </Link>
-              );
-            })}
-          </div>
-        </div>
       </div>
       <div className="mt-8 w-full space-y-4 md:mt-12">
         <div className="grid space-y-8 lg:grid-cols-3 lg:space-x-8 lg:space-y-0">
@@ -79,10 +62,10 @@ function RouteInfo() {
                   <img
                     className={`relative w-full mr-3`}
                     src={
-                      plan.name === "SUV"
-                       ? suvImage
-                       : sedanImage
-                    }
+                        plan.name === "SUV"
+                         ? suvImage
+                         : sedanImage
+                      }
                     alt="car image"
                   />
                 </div>
@@ -108,4 +91,4 @@ function RouteInfo() {
   );
 }
 
-export default RouteInfo;
+export default SubRouteInfo;

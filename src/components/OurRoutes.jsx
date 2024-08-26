@@ -3,23 +3,23 @@ import useMyRoute from "../store/store";
 import { HoverEffect } from "./ui/card-hover-effect";
 import { Tally3 } from "lucide-react";
 
-function OurRates() {
-  const { routeInfo } = useMyRoute();
+function OurRoutes() {
+  const { routeInfo: {mainRoutes} } = useMyRoute();
 
   return (
     <div className="w-full min-h-screen mt-8">
       <h1 className="text-center text-xl sm:text-2xl md:text-3xl flex justify-center font-google mt-2">
         <Tally3 size={32} className="-skew-x-12 text-amber-500" />
-        Our Rates
+        Our Routes
       </h1>
       <div className="max-w-7xl mx-auto px-8">
-        <HoverEffect items={routeInfo} />
+        <HoverEffect items={mainRoutes} />
       </div>
     </div>
   );
 }
 
-export default OurRates;
+export default OurRoutes;
 
 // export const projects = [
 //   {

@@ -6,19 +6,22 @@ import { BackgroundBeams } from "./ui/background-beams";
 function Services() {
   const cardItems = [
     {
-      title: "About Us",
+      title: "Cab Booking",
+      image: "images/card-images/cab-booking.jpg",
       content:
-        "Experience reliable and affordable cab services with us, ensuring safe and comfortable travel for all your transportation needs.",
+        "Book a cab effortlessly with our reliable service, ensuring comfort, safety, and punctuality for all your travel needs.",
     },
     {
       title: "Order Taxi",
+      image: "images/card-images/order-taxi.jpg",
       content:
         "Order your taxi with ease, offering timely pickups, professional drivers, and a smooth, hassle-free ride experience.",
     },
     {
-      title: "Cab Booking",
+      title: "About Us",
+      image: "images/card-images/about-us.jpg",
       content:
-        "Book a cab effortlessly with our reliable service, ensuring comfort, safety, and punctuality for all your travel needs.",
+        "Experience reliable and affordable cab services with us, ensuring safe and comfortable travel for all your transportation needs.",
     },
   ];
   return (
@@ -30,14 +33,14 @@ function Services() {
       <h3 className="text-xl z-10 md:text-3xl text-gray-300 font-google">
         Start Your Journey with DevdaTours
       </h3>
-      <p className="z-10 text-sm w-full md:w-[40%] text-center text-gray-200">
+      {/* <p className="z-10 text-sm w-full md:w-[40%] text-center text-gray-200">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
         autem perspiciatis, maiores ipsum nam, saepe nostrum facere placeat
         accusantium error tempora aut ducimus voluptas
-      </p>
+      </p> */}
       <div className="z-10 flex flex-col md:flex-row justify-center items-center gap-2 md:gap-5 px-6">
         {cardItems.map((item, index) => (
-          <ServiceCard key={index} title={item.title} content={item.content} />
+          <ServiceCard key={index} title={item.title} content={item.content} image={item.image} />
         ))}
       </div>
       <BackgroundBeams />

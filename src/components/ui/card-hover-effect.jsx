@@ -40,12 +40,17 @@ export const HoverEffect = ({ items, className }) => {
           </AnimatePresence>
           <Card>
             <CardTitle>{item.title}</CardTitle>
+            <hr />
+            <h3 className="font-google font-semibold text-gray-200 mt-2">Other Routes</h3>
+            <div className="flex flex-wrap md:flex-wrap mt-2 gap-2 text-gray-200 text-sm md:text-lg">
+              {item?.subRoutes?.map(route=><h3 className="font-google font-semibold">{route}, </h3>)}
+            </div>
             <img
               src={"/images/group-car.png"}
               alt="car image"
               className="h-[130px] md:h-[35%]"
             />
-            <div className="grid grid-cols-2 justify-center text-gray-200 text-sm md:text-lg">
+            <div className="grid grid-cols-2 justify-center text-gray-200 text-sm md:text-lg mb-2">
               <h3>Sedan</h3>
               <h3>₹ {item.sedan}</h3>
               {/* <h3>₹ {item.sedan}</h3> */}
@@ -53,9 +58,8 @@ export const HoverEffect = ({ items, className }) => {
               <h3>₹ {item.suv}</h3>
               {/* <h3>₹ {item.suv}</h3> */}
             </div>
-            {/* <div className="flex flex-col mt-2 gap-2 text-gray-200 text-sm md:text-lg">
-              <h3>*Toll Tax and State tax Extra </h3>
-              <h3>*Parking Extra, if applicable </h3>
+            {/* <div className="flex mt-2 gap-2 text-gray-200 text-sm md:text-lg">
+              {item?.subRoutes?.map(route=><h3 className="font-google font-semibold">{route}, </h3>)}
             </div> */}
             {/* <CardDescription>{item.description}</CardDescription> */}
           </Card>
