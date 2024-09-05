@@ -52,11 +52,11 @@ export const HoverEffect = ({ items, className }) => {
             />
             <div className="grid grid-cols-2 justify-center text-gray-200 text-sm md:text-lg mb-2">
               <h3>Sedan</h3>
-              <h3>₹ {item.sedan}</h3>
               {/* <h3>₹ {item.sedan}</h3> */}
+              <h3>₹</h3>
               <h3>SUV</h3>
-              <h3>₹ {item.suv}</h3>
               {/* <h3>₹ {item.suv}</h3> */}
+              <h3>₹</h3>
             </div>
             {/* <div className="flex mt-2 gap-2 text-gray-200 text-sm md:text-lg">
               {item?.subRoutes?.map(route=><h3 className="font-google font-semibold">{route}, </h3>)}

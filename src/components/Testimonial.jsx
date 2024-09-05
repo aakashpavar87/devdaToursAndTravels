@@ -1,17 +1,11 @@
 import { PhoneCall, Quote } from "lucide-react";
-import testimonialLogo from "../assets/testimonial-image.png";
+// import testimonialLogo from "../assets/testimonial-image.png";
+import testimonialLogo from "../assets/road-trip.png";
 
 function Testimonial() {
   return (
     <div className="container mx-auto w-screen px-4 md:px-32 mt-5 flex flex-col md:flex-row justify-center items-center font-google p-5">
       {/* Image Div */}
-      <div className="md:w-1/3 w-full mb-4 md:mb-0">
-        <img
-          src={testimonialLogo}
-          alt="testimonial logo"
-          className="w-full h-auto"
-        />
-      </div>
       <div className="md:w-2/3 w-full flex flex-col items-start gap-3 px-4">
         <h3 className="text-sm text-amber-500 font-aakash">
           About Our Company
@@ -51,6 +45,16 @@ function Testimonial() {
             </div>
           </a>
         </div>
+      </div>
+      <div className="md:w-2/3 w-full mb-4 md:mb-0 p-4 bg-gray-900 mt-2 rounded-lg">
+        <h3 className="text-xl text-gray-500 font-google">
+          More than <span className="text-gray-200"> 10+ </span> years of Experience.
+        </h3>
+        <img
+          src={testimonialLogo}
+          alt="testimonial logo"
+          className="w-full h-auto"
+        />
       </div>
     </div>
 

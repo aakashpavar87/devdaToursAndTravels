@@ -14,32 +14,29 @@ export default function Hero() {
             Experience Our Services <CarFront size={16} />
           </h1>
           <div className="flex w-full flex-col md:flex-row justify-center items-center gap-12">
-            <div className="flex flex-col w-full">
+            <div className="flex flex-col w-full items-center gap-4">
               <Logo
-                className="h-[210px] md:h-[280px] md:w-full"
+                className="h-[180px] w-[180px] md:h-[280px] md:w-full"
                 alt="webiste logo"
               />
               <div className="w-full h-16 flex items-center justify-center gap-8">
-                <a className="h-full w-12" href="https://www.facebook.com/devdatourstravels">
+                <a className="h-full w-10" href="https://www.facebook.com/devdatourstravels">
                   <img
                     src="/images/icons-social/facebook.svg"
                     alt="Facebook Icon Of Devda Tours And Travels"
                   />
-                  <span className="text-sm font-google text-gray-200">Connect Now</span>
                 </a>
-                <a className="h-full w-12" href="https://www.instagram.com/devdatourstravels">
+                <a className="h-full w-10" href="https://www.instagram.com/devdatourstravels">
                   <img
                     src="/images/icons-social/instagram.svg"
                     alt="Instagram Icon Of Devda Tours And Travels"
                   />
-                  <span className="text-sm font-google text-gray-200">Book Now</span>
                 </a>
-                <a className="h-full w-12" href="https://wa.me/6355168597">
+                <a className="h-full w-10" href="https://wa.me/6355168597">
                   <img
                     src="/images/icons-social/whatsapp-business.svg"
                     alt="Whatsapp Business Icon Of Devda Tours And Travels"
                   />
-                  <span className="text-sm leading-tight font-google text-gray-200">Chat Now</span>
                 </a>
               </div>
             </div>

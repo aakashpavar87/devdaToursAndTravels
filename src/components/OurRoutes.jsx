@@ -1,17 +1,19 @@
 import React from "react";
+import RouteIcon from "../assets/travel-luggage.png";
 import useMyRoute from "../store/store";
 import { HoverEffect } from "./ui/card-hover-effect";
-import { Tally3 } from "lucide-react";
 
 function OurRoutes() {
   const { routeInfo: {mainRoutes} } = useMyRoute();
 
   return (
     <div className="w-full min-h-screen mt-8">
-      <h1 className="text-center text-xl sm:text-2xl md:text-3xl flex justify-center font-google mt-2">
-        <Tally3 size={32} className="-skew-x-12 text-amber-500" />
-        Our Routes
-      </h1>
+      <div className="text-xl sm:text-2xl md:text-3xl flex justify-center items-center font-google mt-2">
+        <img src={RouteIcon} className="mr-2 h-[32px] w-[32px] md:h-[45px] md:w-[45px] " alt="Car Icon For Fleet Display" />
+        <h1>
+        Our Rates
+        </h1>
+      </div>
       <div className="max-w-7xl mx-auto px-8">
         <HoverEffect items={mainRoutes} />
       </div>

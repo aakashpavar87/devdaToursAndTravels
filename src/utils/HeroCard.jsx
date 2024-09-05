@@ -7,6 +7,7 @@ const servicesData = [
   "All Gujarat Tourist Packages Available",
   "Specialization in Corporate Booking",
   "Top Condition cars Available for travelling",
+  "All India Cab service available"
 ];
 
 function HeroCard({ classes }) {
