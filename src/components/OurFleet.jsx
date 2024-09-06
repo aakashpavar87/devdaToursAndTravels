@@ -27,7 +27,7 @@ function OurFleet() {
           }}
           animate={{
             opacity: 1,
-            y: 0,
+            y: 100,
           }}
           transition={{
             duration: 0.6,

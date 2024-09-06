@@ -25,7 +25,7 @@ function Services() {
     },
   ];
   return (
-    <div className="mt-5 flex flex-col md:flex-col min-h-[100vh]  bg-neutral-950 relative justify-center items-center font-google p-5 gap-3 antialiased">
+    <div className="flex flex-col md:flex-col min-h-[100vh]  bg-neutral-950 relative justify-center items-center font-google p-5 gap-3 antialiased">
       <span className="flex z-10 text-xl md:text-3xl text-white">
         <Tally3 size={32} className="-skew-x-12 text-amber-500" />
         What We Offer

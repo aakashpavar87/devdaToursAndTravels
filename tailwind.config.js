@@ -19,8 +19,19 @@ export default {
       },
       animation: {
         aurora: "aurora 60s linear infinite",
+        press: 'press 2s ease-in-out infinite',
+        moveToIcons: 'moveToIcons 3s ease-in-out infinite',
       },
       keyframes: {
+        moveToIcons: {
+          '0%, 100%': { transform: 'translateX(-8rem)' }, // Facebook icon
+          '33%': { transform: 'translateX(0)' },          // WhatsApp icon
+          '66%': { transform: 'translateX(8rem)' },       // Instagram icon
+        },
+        press: {
+          '0%, 100%': { transform: 'translateY(-2rem)' },
+          '50%': { transform: 'translateY(0)' },
+        },
         aurora: {
           from: {
             backgroundPosition: "50% 50%, 50% 50%",

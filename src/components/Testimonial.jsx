@@ -7,7 +7,7 @@ function Testimonial() {
     <div className="container mx-auto w-screen px-4 md:px-32 mt-5 flex flex-col md:flex-row justify-center items-center font-google p-5">
       {/* Image Div */}
       <div className="md:w-2/3 w-full flex flex-col items-start gap-3 px-4">
-        <h3 className="text-sm text-amber-500 font-aakash">
+        <h3 className="text-lg text-amber-500 font-aakash">
           About Our Company
         </h3>
         <h2 className="text-2xl md:text-3xl font-google">
@@ -46,14 +46,14 @@ function Testimonial() {
           </a>
         </div>
       </div>
-      <div className="md:w-2/3 w-full mb-4 md:mb-0 p-4 bg-gray-900 mt-2 rounded-lg">
+      <div className="md:w-2/3 w-full md:h-[500px] mb-4 md:mb-0 p-4 bg-gray-900 mt-2 rounded-lg">
         <h3 className="text-xl text-gray-500 font-google">
           More than <span className="text-gray-200"> 10+ </span> years of Experience.
         </h3>
         <img
           src={testimonialLogo}
           alt="testimonial logo"
-          className="w-full h-auto"
+          className="w-full h-auto md:h-full"
         />
       </div>
     </div>

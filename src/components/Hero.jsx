@@ -1,6 +1,7 @@
 import { CarFront } from "lucide-react";
 import HeroCard from "../utils/HeroCard";
 import Logo from "../utils/Logo";
+import SocialMediaIcon from "./SocialMediaIcon";
 
 export default function Hero() {
   return (
@@ -19,26 +20,7 @@ export default function Hero() {
                 className="h-[180px] w-[180px] md:h-[280px] md:w-full"
                 alt="webiste logo"
               />
-              <div className="w-full h-16 flex items-center justify-center gap-8">
-                <a className="h-full w-10" href="https://www.facebook.com/devdatourstravels">
-                  <img
-                    src="/images/icons-social/facebook.svg"
-                    alt="Facebook Icon Of Devda Tours And Travels"
-                  />
-                </a>
-                <a className="h-full w-10" href="https://www.instagram.com/devdatourstravels">
-                  <img
-                    src="/images/icons-social/instagram.svg"
-                    alt="Instagram Icon Of Devda Tours And Travels"
-                  />
-                </a>
-                <a className="h-full w-10" href="https://wa.me/6355168597">
-                  <img
-                    src="/images/icons-social/whatsapp-business.svg"
-                    alt="Whatsapp Business Icon Of Devda Tours And Travels"
-                  />
-                </a>
-              </div>
+              <SocialMediaIcon />
             </div>
             <HeroCard />
           </div>
