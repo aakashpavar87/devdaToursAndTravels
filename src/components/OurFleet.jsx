@@ -27,7 +27,7 @@ function OurFleet() {
           }}
           animate={{
             opacity: 1,
-            y: 100,
+            y: 120,
           }}
           transition={{
             duration: 0.6,
@@ -38,7 +38,7 @@ function OurFleet() {
             Ride in Style: Book Your Cab Now!
           </motion.p> */}
           <a href="tel:6355168597">
-            <button className="px-4 py-2 backdrop-blur-sm border bg-emerald-300/10 border-emerald-500/20 text-white mx-auto text-center rounded-full relative mt-4">
+            <button className="px-4 py-2 backdrop-blur-sm border bg-emerald-400/45 border-emerald-500/20 text-white mx-auto text-center rounded-full relative mt-4">
               <span>Book Now →</span>
               <div className="absolute inset-x-0  h-px -bottom-px bg-gradient-to-r w-3/4 mx-auto from-transparent via-emerald-500 to-transparent" />
             </button>
