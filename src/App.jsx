@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { Outlet } from "react-router-dom";
 import { Footer } from "./components/Footer";
 import { Navbar } from "./components/Navbar";
@@ -7,9 +6,6 @@ import useMyRoute from "./store/store";
 
 function App() {
   const { routeInfo } = useMyRoute();
-  useEffect(() => {
-    console.log(routeInfo);
-  });
   return (
     <div className="overflow-x-hidden">
       <TopBar />
