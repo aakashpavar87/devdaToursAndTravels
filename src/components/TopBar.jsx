@@ -16,8 +16,8 @@ function TopBar() {
     },
     {
       logo: <MapPinned />,
-      heading: "Laxmi Enterprise",
-      main: "Narol Circle, INDIA - 380001",
+      heading: "C-113, Bijal Business Centre,",
+      main: "Opp. Shyam Icon, Nr. Aslali Circle, Aslali, Ahmedabad - 382427",
     },
   ];
   return (
